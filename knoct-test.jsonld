@@ -1,0 +1,33 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "KnoctEmployee": {
+                "@id": "https://raw.githubusercontent.com/Khanisic/polygon-test/main/knoct-test.jsonld",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://raw.githubusercontent.com/Khanisic/polygon-test/main/knoct-test-vocab.json",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "hireDate": {
+                        "@id": "vocab:hireDate",
+                        "@type": "xsd:dateTime"
+                    },
+                    "role": {
+                        "@id": "vocab:role",
+                        "@type": "xsd:string"
+                    },
+                    "birthday": {
+                        "@id": "vocab:birthday",
+                        "@type": "xsd:integer"
+                    }
+                }
+            }
+        }
+    ]
+}
